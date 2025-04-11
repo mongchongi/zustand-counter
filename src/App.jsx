@@ -37,8 +37,6 @@ const App = () => {
     setNumberInput(number);
   };
 
-  console.log(warning);
-
   return (
     <div className='counter'>
       <button className='counter__button counter__button--reset' onClick={reset}>
